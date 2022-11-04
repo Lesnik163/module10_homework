@@ -1,0 +1,70 @@
+body {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn {
+    padding: 0;
+    border: none;
+    outline: none;
+    background: #07fad6;
+    background: -moz-radial-gradient(center, ellipse cover, #07fad6, #2ef007);
+    background: -webkit-radial-gradient(center, ellipse cover, #07fad6, #2ef007);
+    background: -o-radial-gradient(center, ellipse cover, #07fad6, #2ef007);
+    background: -ms-radial-gradient(center, ellipse cover, #07fad6, #2ef007);
+    /* background: #315efb;
+    background-color: transparent;
+    -webkit-tap-highlight-color: transparent; */
+    box-shadow: none;
+    cursor: pointer;
+    
+    display: flex;
+    margin: 5px 10px;
+    padding: 10px 15px;
+    border-radius: 1px;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: white;
+    transition: 0.3s;
+}
+  .btn-conteiner, .btn-openclose-conteiner {
+    display: flex;
+}
+  .btn:hover {
+    box-shadow: 0px 2px 8px 2px rgba(141,150,178,.3);
+    transform: scale(1.05);
+}
+  .conversationArea {
+    width:800px;
+    border:10px dashed rgb(151, 94, 146);
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+ p {
+    color:red;
+}
+  .j-btn-switch-on-navigation {
+    background: -moz-radial-gradient(center, ellipse cover, #3c8d81, #7d867b);
+    background: -webkit-radial-gradient(center, ellipse cover, #3c8d81, #7d867b);
+    background: -o-radial-gradient(center, ellipse cover, #3c8d81, #7d867b);
+    background: -ms-radial-gradient(center, ellipse cover, #3c8d81, #7d867b);
+}
+  a {
+    border-radius: 10px;
+   color: #36454A;
+   background: -webkit-linear-gradient(top, #A4D3E0, #A4D3E0 50%, #CBE3EB 50%);
+   background: -o-linear-gradient(top, #A4D3E0, #A4D3E0 50%, #CBE3EB 50%);
+   background: linear-gradient(to top, #A4D3E0, #A4D3E0 50%, #CBE3EB 50%);
+   box-shadow: 2px 2px 3px black;
+   width: 148px;
+    height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    color: #620585;
+    font-weight: 900;
+    padding-top: 10px;
+    margin: 5px;
+}
