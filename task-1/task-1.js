@@ -1,7 +1,7 @@
-const clockWise = document.querySelector('.btn-icon1');
-const airplane = document.querySelector('.btn-icon2');
+const svgElement = document.querySelectorAll('svg');
+console.log(svgElement)
 const button = document.querySelector('.button');
 button.addEventListener('click',()=> {
-    console.log(clockWise.classList.toggle('hidden'));
-    console.log(airplane.classList.toggle('hidden'));
+    svgElement[0].classList.toggle('hidden');
+    svgElement[1].classList.toggle('hidden');
 })
